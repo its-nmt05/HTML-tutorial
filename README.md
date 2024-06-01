@@ -1,2 +1,2 @@
 # HTML-tutorial
-Some basic into knowledge of HTML
+Some basic intro knowledge of HTML

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      }
+
+      tr:nth-child(even) {
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Country</th>
+        <th>Country Code</th>
+        <th>Continent</th>
+      </tr>
+      <tr>
+        <td>United States of America</td>
+        <td>USA</td>
+        <td>N. America</td>
+      </tr>
+      <tr>
+        <td>China</td>
+        <td>CN</td>
+        <td>Asia</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>Asia</td>
+      </tr>
+      <tfoot>
+        <tr>
+            <th>3</th>
+            <th>Mixed</th>
+            <th>Mixed</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
